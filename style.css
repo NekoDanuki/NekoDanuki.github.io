@@ -12,7 +12,6 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-	color: #333;
 }
 
 body {
@@ -39,6 +38,7 @@ a {
 }
 
 nav a {
+	color: inherit;
 	margin-left: 20px;
 	text-align: right;
 	font-weight: 300;
@@ -52,11 +52,18 @@ h1 {
 }
 
 nav a:hover {
-	color: blue;
+	color: #34cc99;
 }
 
 .wrapper-masthead {
 	margin-bottom: 50px;
+}
+
+.wrapper-masthead .container {
+	background: #222222;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding: 0 20px;
 }
 
 .container {
@@ -67,6 +74,7 @@ nav a:hover {
 }
 
 .masthead {
+	color: #EEE;
 	padding: 20px 0;
 }
 
@@ -86,10 +94,12 @@ nav a:hover {
 }
 
 .site-info {
+	color: inherit;
 	float: left;
 }
 
 .site-name {
+	color: inherit;
 	font-size: 28px;
 	font-weight: 300;
 	letter-spacing: 1px;
