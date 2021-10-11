@@ -22,9 +22,12 @@ header, nav, footer {
 	display: block;
 }
 
+img, a {
+	vertical-align: baseline;
+}
+
 img {
 	max-width: 100%;
-	vertical-align: baseline;
 }
 
 nav {
@@ -33,6 +36,7 @@ nav {
 }
 
 a {
+	color: #333;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -47,11 +51,13 @@ nav a {
 }
 
 h1 {
+	font-size: 28px;
+	font-weight: bold;
 	line-height: 1.7;
 	padding: 0;
 }
 
-nav a:hover {
+a:hover {
 	color: #34cc99;
 }
 
@@ -93,13 +99,15 @@ nav a:hover {
 	margin-right: 15px;
 }
 
-.site-info {
+.site-info, .site-name, #main {
 	color: inherit;
+}
+
+.site-info {
 	float: left;
 }
 
 .site-name {
-	color: inherit;
 	font-size: 28px;
 	font-weight: 300;
 	letter-spacing: 1px;
@@ -111,4 +119,33 @@ nav a:hover {
 
 #main {
 	color: #333;
+}
+
+::selection {
+	color: #FFF;
+	background: #34cc99;
+}
+
+.date {
+	color: #888;
+	font-style: italic;
+}
+
+.preview, .post-image {
+	border-radius: 20px;
+	padding: 20px 0;
+}
+
+.post {
+	margin: 20px 20px;
+}
+
+.post h1 {
+	font-size: 30px;
+}
+
+.entry p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22px;
+	padding: 10px 0;
 }
