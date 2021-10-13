@@ -138,6 +138,7 @@ a:hover {
 
 .preview {
 	height: 100px;
+	overflow: hidden;
 }
 
 .post {
