@@ -136,6 +136,10 @@ a:hover {
 	padding: 20px 0;
 }
 
+.preview {
+	height: 100px;
+}
+
 .post {
 	margin: 20px 20px;
 }
