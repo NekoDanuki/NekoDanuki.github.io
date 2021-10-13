@@ -154,3 +154,30 @@ a:hover {
 	font-size: 22px;
 	padding: 10px 0;
 }
+
+@media screen and (max-width: 640px) {
+	.masthead {
+		text-align: center;
+	} 
+
+	nav {
+		float: none;
+		margin-top: 9px;
+		display: block;
+		font-size: 16px;
+	}  
+
+	nav a { 
+		margin: 0 10px; 
+	} 
+
+	.site-description {
+		margin: 3px 0;
+	} 
+
+	.site-info {
+		float: none;
+		display: block; 
+		margin: 0 auto; 
+	}
+}
