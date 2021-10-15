@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["bitflags","cfg_if","getrandom","lazy_static","libc","ppv_lite86","rand","rand_chacha","rand_core","sdl2","sdl2_sys","snake_rust"];

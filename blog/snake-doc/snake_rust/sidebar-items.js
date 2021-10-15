@@ -1,0 +1,1 @@
+initSidebarItems({"enum":[["Direction",""]],"fn":[["main",""],["render",""]],"struct":[["Food",""],["Snake",""],["SnakeRect",""]]});
